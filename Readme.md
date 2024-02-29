@@ -1,4 +1,4 @@
-#A Scaffod for.Net Core MVC
+# A Scaffod for.Net Core MVC
 - **Interfaceization of Layers**:
   - Abstract each layer into interfaces, defining expected behavior without concrete implementations.
 - **Introduction of Projects**:
@@ -9,6 +9,5 @@
 - **Inter-Layer Communication with IOC Container**:
   - Employ the IOC container to facilitate communication between layers, promoting loose coupling.
 - **Data Transmission**:
-  - Utilize entities for data transfer, enhancing system clarity and maintainability.
 
 ![](https://github.com/LuckyCodeDog/.Net_Core_MVC_Three_Layers_Scaffold/blob/master/6429caa30a8bebc6efdb1c629180ba6.png)
