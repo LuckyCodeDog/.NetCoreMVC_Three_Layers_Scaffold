@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "学生基本信息主页";
+}
+<h3>@ViewData["Title"]</h3>
+@using Models
+@model IEnumerable<StudentViewModel>
+<div class="pull-right">
+    <a href="/Student/Add">添加学生信息</a>
+</div>
+<table class="table table-bordered">
+    <tr>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>性别</td>
+        <td>地址</td>
+        <td>身份证号</td>
+        <td>操作</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Age</td>
+            <td>@(item.Sex ? "男" : "女") </td>
+            <td>@item.Address</td>
+            <td>@item.CardId</td>
+            <td>
+                <a asp-controller="Student"
+                   asp-action="Delete"
+                   asp-route-id="@item.StudentId"
+                   onclick="return confirm('确认删除？')">删除</a>
+                <a asp-controller="Student"
+                   asp-action="Edit"
+                   asp-route-id="@item.StudentId">编辑</a>
+            </td>
+        </tr>
+    }
+</table>
