@@ -10,4 +10,4 @@
 - **Data Transmission**:
   - Utilize entities for data transfer, enhancing system clarity and maintainability.
 
-![](C:\Users\15470\Desktop\6429caa30a8bebc6efdb1c629180ba6.png)
+![](https://github.com/LuckyCodeDog/.Net_Core_MVC_Three_Layers_Scaffold/blob/master/6429caa30a8bebc6efdb1c629180ba6.png)
