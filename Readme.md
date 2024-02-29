@@ -1,4 +1,4 @@
-#A Scaffod for.Net Core MVC
+# A Scaffod for.Net Core MVC
 - **Interfaceization of Layers**:
   - Abstract each layer into interfaces, defining expected behavior without concrete implementations.
 - **Introduction of Projects**:
